@@ -30,7 +30,7 @@ client.once('ready', () => {
             channel.setName('server-status-🔴');
             serverStatus = 'down';
         }
-    }, 65000);
+    }, 320000);
 });
 
 // This event triggers whenever a message is received
@@ -49,7 +49,7 @@ client.on('messageCreate', message => {
                 channel.setName('server-status-🔴');
                 serverStatus = 'down';
             }
-        }, 65000);
+        }, 320000);
     }
 });
 
